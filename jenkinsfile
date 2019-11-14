@@ -1,6 +1,6 @@
 node {
         // Clone the code from github:
-        git url :'https://github.com/memsharded/example-poco-timer.git'
+        git url :'https://github.com/rchilamakuri/example-poco-timer.git'
 
          // Obtain an Artifactory server instance, defined in Jenkins --> Manage:
         def server = Artifactory.server SERVER_ID
